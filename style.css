@@ -1,0 +1,205 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .form-box {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .form-box h2 {
+      margin-bottom: 25px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .form-box input,
+    .form-box select,
+    .form-box button {
+      width: 100%;
+      padding: 12px 15px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .form-box input:focus,
+    .form-box select:focus {
+      border-color: #f8b500;
+      outline: none;
+    }
+
+    .form-box button {
+      background-color: #f8b500;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .form-box button:hover {
+      background-color: #d69200;
+    }
+
+    @media (max-width: 500px) {
+      .form-box {
+        padding: 20px;
+      }
+    }
+
+
+/* login-box */
+
+body {
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    #login-box {
+      background: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    #login-box h2 {
+      margin-bottom: 25px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    #login-box input,
+    #login-box button {
+      width: 100%;
+      padding: 12px 15px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    #login-box input:focus,
+    #login-box select:focus {
+      border-color: #f8b500;
+      outline: none;
+    }
+
+    #login-box button {
+      background-color: #f8b500;
+      color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #login-box button:hover {
+      background-color: #d69200;
+    }
+
+    @media (max-width: 500px) {
+      #login-box {
+        padding: 20px;
+      }
+    }
+
+
+#exportSection {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  /* max-width: 500px;  */
+  text-align: center;
+  overflow-x: auto; /* Allow horizontal scroll if needed */
+}
+#exportSection h2 {
+  margin-bottom: 25px;
+  color: #333;
+  font-weight: 600;
+}
+#submissionsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#submissionsTable th,
+#submissionsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#submissionsTable th {
+  background-color: #f8b500;
+  color: white;
+}
+
+#searchInput {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.admin-btn {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: #f8b500;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-btn:hover {
+  background-color: #d69200;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
