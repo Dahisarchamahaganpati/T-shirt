@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel - T-Shirt Orders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="login-box">
+    <h2>🔐 Admin Login</h2>
+    <input type="password" id="adminPassword" placeholder="Enter admin password">
+    <button onclick="verifyAdmin()">Login</button>
+  </div>
+
+  <div id="exportSection" style="display:none">
+    <h2>📁 Manage Submissions</h2>
+    <input type="text" id="searchInput" placeholder="Search by name, email, or size...">
+    <table id="submissionsTable"></table>
+    <button class="admin-btn" onclick="exportToExcel()">Download Excel</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
