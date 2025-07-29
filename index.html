@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Festival T-Shirt Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="form-box">
+  <h2>🎉दहीसरचा महागणपती</h2>
+
+  <form id="tshirtForm">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="email" name="email" placeholder="Your Email" required><br>
+    <input type="tel" name="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required><br>
+    <input type="number" id="quantity" name="quantity" placeholder="Quantity" min="1" required><br>
+    <div id="sizesContainer"></div>
+    <div id="result"></div>
+      
+    <button type="submit">Submit</button>
+  </form>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
